@@ -4,7 +4,7 @@
 .font-robo {
   font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 /* ==========================================================================
      #GRID
      ========================================================================== */
@@ -130,10 +130,11 @@ button {
      ========================================================================== */
 .page-wrapper {
   min-height: 100vh;
+  padding-top: 130px;
 }
 
 body {
-  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  font-family: "Courgette", cursive;
   font-weight: 400;
   font-size: 14px;
 }
@@ -163,9 +164,9 @@ h4 {
   font-size: 18px;
 }
 
-h5 {
+/* h5 {
   font-size: 15px;
-}
+} */
 
 h6 {
   font-size: 13px;
@@ -204,7 +205,16 @@ h6 {
 .p-b-100 {
   padding-bottom: 100px;
 }
-
+.welcome {
+  color: white;
+  font-family: "Courgette", cursive;
+  text-align: center;
+  text-shadow: 1px 2px 2px black;
+  margin-bottom: 1.5rem;
+}
+#first {
+  font-size: xxx-large;
+}
 /* ==========================================================================
      #WRAPPER
      ========================================================================== */

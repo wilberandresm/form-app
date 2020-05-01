@@ -15,7 +15,11 @@ class login extends React.Component {
 
     render() {
         return (
-            <div className="page-wrapper bg-blue p-t-180 p-b-100  pl-2 pr-2 font-robo">
+            <div className="page-wrapper bg-blue p-b-90  pl-2 pr-2 font-robo">
+                <div className="welcome">
+                    <h5 id="first">Welcome</h5>
+                    <h5 id="secomd"> please fill out the form</h5>
+                </div>
                 <div className="wrapper wrapper--w960">
                     <div className="card card-2">
                         <div className="card-heading"></div>
